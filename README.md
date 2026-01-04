@@ -1,72 +1,72 @@
 <!-- 
-  Hi there! 👋 
-  This is the GitHub profile README for Irish Prajapati.
-  Clean layout • Minimal emojis • Backend-focused
+  Irish Prajapati — GitHub Profile
+  Backend Developer | Clean Architecture | Performance-First
 -->
 
-<h1 align="center">Irish Prajapati</h1>
+<div align="center">
 
-<p align="center">
-  <strong>Backend Developer</strong> • Problem Solver • Clean Architecture Enthusiast
-</p>
+# Irish Prajapati
 
-<p align="center">
-  I build scalable, efficient, and maintainable backend systems—fueled by clean code, thoughtful design, and a passion for performance.
-</p>
+**Backend Developer**  
+Building scalable, reliable, and maintainable systems with precision and purpose.
 
----
-
-## 🧠 About Me
-
-- 🔍 I focus on **robust APIs**, **database integrity**, and **system reliability**.
-- 🛠️ I work primarily with **Python**, **Django**, **FastAPI**, and **PostgreSQL**.
-- 📦 I believe in **modular code**, **async performance**, and **thoughtful architecture**.
-- 💡 I enjoy self-driven projects that challenge me to research, build, and iterate.
-- 🌏 Based in **Nepal**.
+</div>
 
 ---
 
-## 🧰 Tech Stack
+### About
 
-| Category       | Technologies                                                                 |
-|----------------|------------------------------------------------------------------------------|
-| **Languages**  | Python, JavaScript, PHP, C                                                  |
-| **Backend**    | Django, FastAPI, Django REST Framework                                      |
-| **Databases**  | PostgreSQL (primary), MySQL, SQLite                                         |
-| **ORM / Tools**| SQLAlchemy, Pydantic, JWT, REST APIs                                        |
-| **Infra**      | Docker, Render, Git, Linux, Apache                                          |
-| **Practices**  | Clean Architecture, Async Programming, Query Optimization, Role-Based Access|
+- Focused on **robust APIs**, **data integrity**, and **system resilience**  
+- Advocate for **modular code**, **async efficiency**, and **clean architecture**  
+- Passionate about performance optimization and practical engineering  
+- Based in Nepal
 
 ---
 
-## 💼 Experience
+### Technical Stack
 
-### **Backend Developer Intern**  
-*Smart Saauzi Solutions Pvt. Ltd.* — Aug 2025 – Nov 2025  
-- Developed internal Django services with JWT auth and PostgreSQL.  
-- Collaborated on full-stack features using feature-branch Git workflows.  
-- Deployed containerized apps on Render using Docker.
-
----
-
-## 🚀 Projects (Coming Soon)
-
-- **Project Management API** – FastAPI, async, role-based access  
-- **Library Management API** – Borrowing logic, optimized PostgreSQL queries  
-- **E-Commerce API** – Cart, orders, simulated payments, Pydantic validation  
-- **Hospital Management System** – Secure medical records, data integrity  
-- **Peak Times** – Crowd density web app with Django & Jinja  
-
-> _All projects emphasize performance, maintainability, and real-world usability._
+| Layer          | Technologies                                               |
+|----------------|------------------------------------------------------------|
+| Languages      | Python, JavaScript, PHP, C                                |
+| Frameworks     | Django, FastAPI, Django REST Framework                    |
+| Databases      | PostgreSQL, MySQL, SQLite                                 |
+| Data & Tools   | SQLAlchemy, Pydantic, JWT, REST APIs, Async I/O           |
+| Infrastructure | Docker, Render, Git, Linux, Apache                        |
+| Practices      | Role-Based Access, Query Optimization, CI/CD, TDD (where applicable) |
 
 ---
 
-## 📬 Get in Touch
+### Professional Experience
 
-Feel free to reach out for collaboration, questions, or just to say hello!
+**Backend Developer Intern**  
+*Smart Saauzi Solutions Pvt. Ltd.* — August 2025 – November 2025  
+- Developed internal business applications using Django and PostgreSQL  
+- Implemented JWT-based authentication and secure RESTful endpoints  
+- Collaborated in a full-stack team using feature-branch Git workflows  
+- Containerized and deployed services on Render using Docker
 
-📧 **irishmjn@gmail.com**  
-📍 **Nepal**
+---
+
+### Selected Projects
+
+*(All projects emphasize performance, maintainability, and real-world constraints)*
+
+- **Project Management API** — Async FastAPI backend with role-based access and optimized queries  
+- **Library Management API** — Full borrowing lifecycle with data consistency and audit logic  
+- **E-Commerce API** — Product catalog, cart, orders, and simulated payment flow  
+- **Hospital Management System** — Secure patient records with strict relational integrity  
+- **Peak Times** — Web application for crowd density visualization using Django and PostgreSQL
+
+> Project repositories will be linked individually as they are finalized.
+
+---
+
+### Contact
+
+Open to collaboration, technical discussion, or opportunities.  
+
+Email: **irishmjn@gmail.com**  
+Location: Nepal
 
 ---
 
