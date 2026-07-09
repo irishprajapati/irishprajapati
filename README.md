@@ -1,123 +1,164 @@
 <!--
-  Irish Prajapati — GitHub Profile
-  Backend Developer | Clean Architecture | Performance-First
+  Erish Prajapati — GitHub Profile
+  Backend Engineer | Java + Spring Boot | Systems Thinking
 -->
 
 <div align="center">
 
-# Irish Prajapati
+# Erish Prajapati
 
-**Backend Developer**
+**Backend Engineer**
 
-Building scalable, reliable, and maintainable systems - with precision and purpose.
+Designing systems that don’t break under pressure — built for correctness, scalability, and maintainability.
 
 <br/>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square\&logo=openjdk\&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=flat-square\&logo=springboot\&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square\&logo=fastapi\&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square\&logo=postgresql\&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square\&logo=docker\&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square\&logo=linux\&logoColor=black)
 
 </div>
 
-<br/>
+---
 
 ## About
 
-I build backend systems where **data integrity**, **async efficiency**, and **clean architecture** aren't afterthoughts — they're the starting point. My focus is on APIs that stay reliable under real-world load, not just in a demo.
+I build backend systems with a focus on **data integrity**, **performance under load**, and **clean architecture**.
 
-Most of my work sits at the intersection of correctness and performance: designing schemas that don't break under edge cases, writing queries that don't fall over at scale, and keeping systems modular enough that someone else can maintain them without archaeology.
+Most developers can make something work. I focus on making it:
 
-**Currently:** deepening my work with async FastAPI patterns and role-based access design.
+* **predictable under edge cases**
+* **maintainable by other engineers**
+* **scalable without rewriting everything later**
 
-Based in Nepal.
+My work is centered around:
 
-<br/>
+* Designing APIs that handle real-world constraints
+* Writing database queries that don’t degrade at scale
+* Structuring codebases that don’t turn into chaos after 6 months
 
-## Technical Stack
+**Current Focus**
 
-**Languages** — Python · JavaScript · PHP · C
-**Frameworks** — Django · FastAPI · Django REST Framework
-**Databases** — PostgreSQL · MySQL · SQLite
-**Core Tools** — SQLAlchemy · Pydantic · JWT · Async I/O · REST APIs
-**Infrastructure** — Docker · Render · Git · Linux · Apache
-**Practices** — Role-Based Access Control · Query Optimization · CI/CD · TDD (where applicable)
+* Spring Boot (production-grade backend design)
+* REST API design with proper layering (Controller → Service → Repository)
+* Database modeling with PostgreSQL
+* System design fundamentals (scalability, fault tolerance)
 
-<br/>
+---
 
-## Professional Experience
+## Tech Stack
 
-**Backend Developer Intern** — *Smart Saauzi Solutions Pvt. Ltd.*
-`August 2025 – November 2025`
+### Languages
 
-- Developed internal business applications using Django and PostgreSQL
-- Implemented JWT-based authentication and secure RESTful endpoints
-- Collaborated in a full-stack team using feature-branch Git workflows
-- Containerized and deployed services on Render using Docker
+Java · Python · JavaScript · C
 
-<br/>
+### Backend Frameworks
 
-## Selected Projects
+Spring Boot · FastAPI · Django
 
-*All projects emphasize performance, maintainability, and real-world constraints — not just working demos.*
+### Databases
+
+PostgreSQL · MySQL · SQLite
+
+### Core Concepts
+
+REST APIs · JWT Authentication · RBAC · Async Processing · ORM (JPA/Hibernate, SQLAlchemy)
+
+### Tools & Infrastructure
+
+Docker · Git · Linux · Render · Apache
+
+### Engineering Practices
+
+Clean Architecture · Layered Design · Query Optimization · CI/CD · TDD (when it matters)
+
+---
+
+## Experience
+
+**Backend Developer Intern**
+*Smart Saauzi Solutions Pvt. Ltd.*
+`Aug 2025 – Nov 2025`
+
+* Built backend services using Django and PostgreSQL
+* Implemented secure authentication using JWT
+* Designed REST APIs used in internal business workflows
+* Worked in a team using Git feature-branch workflows
+* Containerized applications using Docker for deployment
+
+---
+
+## Projects
+
+> Real systems. Not tutorial clones.
 
 <details>
-<summary><strong>Project Management API</strong> — Async FastAPI backend with role-based access</summary>
-<br/>
+<summary><strong>Project Management API</strong> — Role-based system with concurrency handling</summary>
 
-Built for teams managing concurrent projects with different permission tiers. Uses async request handling to keep response times stable under concurrent load, with query optimization to avoid N+1 patterns on nested resource lookups.
+* Built using FastAPI with async request handling
+* Implemented role-based access control (admin, manager, user)
+* Optimized queries to eliminate N+1 problems
+* Designed for concurrent usage without performance degradation
 
 </details>
 
 <details>
-<summary><strong>Library Management API</strong> — Full borrowing lifecycle with audit logic</summary>
-<br/>
+<summary><strong>Library Management System</strong> — Consistent transaction handling</summary>
 
-Handles the complete lifecycle of borrowing, returns, and holds while keeping inventory counts consistent under concurrent requests. Includes audit logging so every state change is traceable.
-
-</details>
-
-<details>
-<summary><strong>E-Commerce API</strong> — Catalog, cart, orders, and simulated payment flow</summary>
-<br/>
-
-End-to-end commerce backend covering product catalog, cart persistence, order state transitions, and a simulated payment flow — built to mirror the constraints of a real checkout system without the payment provider dependency.
+* Full lifecycle: issue, return, hold, penalties
+* Ensures consistency under concurrent operations
+* Tracks all actions via audit logging
 
 </details>
 
 <details>
-<summary><strong>Hospital Management System</strong> — Secure patient records with strict relational integrity</summary>
-<br/>
+<summary><strong>E-Commerce Backend</strong> — Order lifecycle + system design focus</summary>
 
-Designed around strict relational integrity for patient records, where data consistency isn't optional. Access control is layered to reflect real hospital roles (admin, staff, clinician).
+* Product catalog, cart, order management
+* Simulated payment workflow
+* Designed around real-world constraints (not just CRUD)
 
 </details>
 
 <details>
-<summary><strong>Peak Times</strong> — Crowd density visualization web app</summary>
-<br/>
+<summary><strong>Hospital Management System</strong> — Strict relational integrity</summary>
 
-Django + PostgreSQL application for visualizing crowd density patterns over time, built with a focus on clean data aggregation and readable reporting views.
+* Strong database relationships (patients, doctors, records)
+* Role-based access reflecting real hospital roles
+* Focused on data correctness over shortcuts
 
 </details>
 
-<br/>
+<details>
+<summary><strong>Peak Times</strong> — Data aggregation & visualization backend</summary>
 
-> Project repositories will be linked individually as they are finalized.
+* Django + PostgreSQL
+* Aggregates and visualizes crowd density patterns
+* Optimized queries for reporting performance
 
-<br/>
+</details>
+
+---
+
+## What I’m Building Next
+
+* Spring Boot production-grade APIs
+* Microservice-ready backend architecture
+* Better system design (caching, queues, scaling patterns)
+
+---
 
 ## Contact
 
-Open to collaboration, technical discussion, or opportunities.
-
-**Email:** irishmjn@gmail.com
-**Location:** Nepal
+* Email: [irishmjn@gmail.com](mailto:irishmjn@gmail.com)
+* Location: Nepal
 
 ---
 
 <div align="center">
-<sub>© 2026–Present Irish Prajapati · CC BY-NC-SA 4.0</sub>
+<sub>© 2026–Present Erish Prajapati</sub>
 </div>
